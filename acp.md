@@ -76,5 +76,31 @@
 
 ![](img/2023-10-11-14-01-42.png)
 
+
+# 云服务器 ECS
+> [什么是云服务器ECS](https://help.aliyun.com/zh/ecs/product-overview/what-is-ecs)
+
+# 专有网络 VPC
+> [什么是专有网络](https://help.aliyun.com/document_detail/34217.html)
+
 # 弹性公网IP EIP
+> [什么是弹性公网 IP](https://help.aliyun.com/document_detail/32321.html)
+
+# 全球加速 GA
+> [什么是全球加速](https://help.aliyun.com/document_detail/153189.html)
+
+# 云企业网 CEN
+> [什么是云企业网](https://help.aliyun.com/zh/cen/product-overview/what-is-cen)
+
+# 转发路由器 TR
+> [转发路由器工作原理](https://help.aliyun.com/zh/cen/product-overview/how-transit-routers-work)
+
+# 边界路由器 VBR
+> [什么是边界路由器](https://help.aliyun.com/zh/express-connect/user-guide/what-is-a-virtual-border-router)
+
+# 云连接网 CCN
+> [云连接网介绍](https://help.aliyun.com/zh/sag/user-guide/introduction-to-ccn)
+
+# 万物上云组件
+![](img/2023-11-02-14-39-11.png)
 
