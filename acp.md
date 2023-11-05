@@ -101,6 +101,104 @@
 # 云连接网 CCN
 > [云连接网介绍](https://help.aliyun.com/zh/sag/user-guide/introduction-to-ccn)
 
+# Overlay Network
+> [Overlay Network](https://info.support.huawei.com/info-finder/encyclopedia/en/Overlay+network.html)
+
 # 万物上云组件
 ![](img/2023-11-02-14-39-11.png)
 
+## 智能接入网关 SAG
+> [什么是智能接入网关](https://help.aliyun.com/zh/sag/product-overview/what-is-sag)
+
+## 云连接器 CC
+> [什么是云连接器](https://help.aliyun.com/zh/cloud-connector/product-overview/what-is-cloud-connector)
+
+## VPN 网关
+> [什么是VPN网关](https://help.aliyun.com/zh/vpn/product-overview/what-is-vpn-gateway)
+
+## 高速通道
+> [什么是高速通道](https://help.aliyun.com/zh/express-connect/product-overview/what-is-express-connect)
+
+# 资源编排 ROS
+> [什么是资源编排服务](https://help.aliyun.com/document_detail/28852.html?spm=a2c4g.28850.0.0.3cdb1190uUAcGP)
+
+# 服务器迁移中心 SMC
+> [什么是服务器迁移中心](https://help.aliyun.com/zh/smc/product-overview/what-is-smc?spm=a2c4g.11174283.0.0.7cc51dc3y5sj0V)
+
+ 
+# 对象存储 OSS 
+> [什么是对象存储OSS](https://help.aliyun.com/zh/oss/product-overview/what-is-oss?spm=a2c4g.11174283.0.0.8f076987EcUKFU)  
+> [对象概述](https://help.aliyun.com/zh/oss/user-guide/overview-18?spm=a2c4g.11186623.0.0.3dbc58afO7rqtt)  
+
+
+对象存储是一种存储架构，用于存储和管理大规模数据的分布式存储系统  
+与传统的文件系统或块存储不同，对象存储将数据组织为对象（Object），并为每个对象分配唯一的标识符（ID）  
+每个对象包含数据本身以及与其关联的元数据（如对象的名称、大小、创建时间等）  
+
+# 块存储 EBS
+![](img/2023-11-05-11-06-31.png)
+
+# 快照
+> [快照概述](https://help.aliyun.com/zh/ecs/user-guide/snapshot-overview?spm=a2c4g.465764.0.i2#concept-qft-2zw-ydb)
+
+## 自动快照
+> [自动快照](https://help.aliyun.com/zh/ecs/user-guide/overview#concept-1443642)
+
+# 日志服务 SLS  
+> [什么是日志服务](https://help.aliyun.com/zh/sls/product-overview/what-is-log-service?spm=a2c4g.11174283.0.0.4b7f35aePlRBAv)
+
+# 云关系型数据库 RDS
+> [云数据库RDS简介](https://help.aliyun.com/zh/rds/what-is-apsaradb-rds?spm=a2c4g.11174283.0.0.e70b753eINwuE1)
+
+# 数据管理 DMS
+> [什么是数据管理DMS](https://help.aliyun.com/zh/dms/product-overview/what-is-dms?spm=a2c4g.11174283.0.0.7d193b4aZy2678)
+
+# 数据传输服务 DTS
+> [什么是数据传输服务DTS](https://help.aliyun.com/zh/dts/product-overview/what-is-dts?spm=a2c4g.11174283.0.0.28fb3f53VVmISR)
+
+
+# 负载均衡 SLB
+> [负载均衡](https://help.aliyun.com/zh/slb?spm=a2c4g.11186623.0.i15)
+
+## 性能指标
+### 最大连接数
+- Max Connection
+- 最大连接数定义了一个负载均衡实例能够承载的最大连接数量。当实例上的连接超过规格定义的最大连接数时，新建连接请求将被丢弃。
+
+### 每秒新建连接数 Connection Per Second（CPS）
+每秒新建连接数定义了新建连接的速率。当新建连接的速率超过规格定义的每秒新建连接数时，新建连接请求将被丢弃。
+
+### 每秒查询数-Query Per Second（QPS）
+每秒请求数是七层监听特有的概念，指的是每秒可以完成的HTTP或HTTPS的查询（请求）的数量。当请求速率超过规格所定义的每秒查询数时，新建连接请求将被丢弃。
+
+## 传统负载均衡 CLB
+> [CLB实例概述](https://help.aliyun.com/zh/slb/classic-load-balancer/user-guide/clb-overview-1?spm=a2c4g.11186623.0.i16)
+
+### 实例规格
+- 性能保障型实例
+- 性能共享型实例
+
+## 应用型负载均衡 ALB
+> [ALB实例概述](https://help.aliyun.com/zh/slb/application-load-balancer/user-guide/overview-of-alb-instances?spm=a2c4g.11186623.0.i25)
+
+
+## 网络型负载均衡 NLB
+> [NLB实例概述](https://help.aliyun.com/zh/slb/network-load-balancer/user-guide/overview-of-nlb-instances?spm=a2c4g.11186623.0.i28)
+
+# 弹性伸缩 ESS
+> [什么是弹性伸缩ESS](https://help.aliyun.com/document_detail/25857.html?spm=a2c4g.25855.0.0.4b93433dMJLLNU)
+
+# 弹性容器实例 ECI
+> [什么是弹性容器实例](https://help.aliyun.com/zh/eci/product-overview/what-is-elastic-container-instance?spm=a2c4g.11174283.0.0.1ed51454Cb8x9p)
+
+# 容器服务 ACK
+> [什么是容器服务 Kubernetes 版](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/product-overview/what-is-ack?spm=a2c4g.11186623.0.0.508c66bbXCES0L)
+
+## ACK 弹性伸缩
+> [ACK弹性伸缩](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/user-guide/auto-scaling-overview?spm=a2c4g.11186623.0.i42#concept-1918532)
+
+# 云数据库 Redis
+> [什么是云数据库Redis版](https://help.aliyun.com/zh/redis/product-overview/what-is-apsaradb-for-redis?spm=a2c4g.11174283.0.0.58823c62qz6q64)
+
+# 资源访问管理 RAM
+> [访问控制RAM介绍](https://help.aliyun.com/zh/ecs/user-guide/ram-overview?spm=a2c4g.11186623.0.i26)
